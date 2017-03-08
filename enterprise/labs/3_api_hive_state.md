@@ -63,9 +63,9 @@
     $
     ```
  1. Checking Hive actually started 
-   ```
-   $ curl -u 'joseluisvf:cloudera' -X GET "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive"
-   {
+    ```
+    $ curl -u 'joseluisvf:cloudera' -X GET "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive"
+    {
      "name" : "hive",
      "type" : "HIVE",
      "clusterRef" : {
@@ -90,9 +90,9 @@
      "maintenanceOwners" : [ ],
      "displayName" : "Hive",
      "entityStatus" : "GOOD_HEALTH"
-   }
-   $
-   ```
+    }
+    $
+    ```
    
    
    
