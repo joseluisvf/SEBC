@@ -2,6 +2,7 @@
 ## Use the API
 
  1. Stopping Hive
+
     ```
     $ curl -u 'joseluisvf:cloudera' -X POST "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive/commands/stop"
     {
@@ -16,7 +17,9 @@
     }
     $ 
     ```
+
  1. Checking Hive actually stopped
+
     ```
     $ curl -u 'joseluisvf:cloudera' -X GET "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive"
     {
@@ -47,7 +50,9 @@
     }
     $ 
     ```
+
  1. Starting Hive
+
     ```
     $ curl -u 'joseluisvf:cloudera' -X POST "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive/commands/start"
     {
@@ -62,7 +67,9 @@
     }
     $
     ```
+
  1. Checking Hive actually started 
+ 
     ```
     $ curl -u 'joseluisvf:cloudera' -X GET "http://ip-172-31-20-167.eu-west-1.compute.internal:7180/api/v12/clusters/joseluisvf/services/hive"
     {
