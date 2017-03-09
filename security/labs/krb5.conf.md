@@ -1,3 +1,7 @@
+# Security Lab
+## Integrating Kerberos with Cloudera Manager
+
+```
 [logging]
  default = FILE:/var/log/krb5libs.log
  kdc = FILE:/var/log/krb5kdc.log
@@ -23,3 +27,4 @@
 [domain_realm]
  .eu-west-1.compute.internal = JOSELUISVF.COM
  eu-west-1.compute.internal = JOSELUISVF.COM
+```
