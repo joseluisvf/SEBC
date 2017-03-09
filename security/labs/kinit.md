@@ -22,12 +22,11 @@
  1. The output from a klist command listing your credentials and ticket lifetime
 
     ```
-    $ klist
-    Ticket cache: FILE:/tmp/krb5cc_0
+    $ Ticket cache: FILE:/tmp/krb5cc_0
     Default principal: joseluisvf@JOSELUISVF.COM
 
     Valid starting     Expires            Service principal
-    03/09/17 08:14:26  03/10/17 08:14:26  krbtgt/JOSELUISVF.COM@JOSELUISVF.COM
-	renew until 03/09/17 08:14:26
+    03/09/17 08:55:52  03/10/17 08:55:52  krbtgt/JOSELUISVF.COM@JOSELUISVF.COM
+	renew until 03/16/17 08:55:52
     $
     ```
