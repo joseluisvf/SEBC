@@ -1,0 +1,1 @@
+cloudera-scm@JOSELUISVF.ES *
