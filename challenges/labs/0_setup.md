@@ -10,11 +10,11 @@
 1. Nodes and IPs
 
     ```
-    34.250.9.62     ec2-34-250-9-62.eu-west-1.compute.amazonaws.com     
-    34.248.52.210   ec2-34-248-52-210.eu-west-1.compute.amazonaws.com   
-    34.250.197.105  ec2-34-250-197-105.eu-west-1.compute.amazonaws.com  
-    34.248.175.229  ec2-34-248-175-229.eu-west-1.compute.amazonaws.com  
-    34.251.47.87    ec2-34-251-47-87.eu-west-1.compute.amazonaws.com    
+    34.251.247.153 ec2-34-251-247-153.eu-west-1.compute.amazonaws.com
+    34.252.82.144 ec2-34-252-82-144.eu-west-1.compute.amazonaws.com
+    34.249.229.242 ec2-34-249-229-242.eu-west-1.compute.amazonaws.com
+    34.252.131.118 ec2-34-252-131-118.eu-west-1.compute.amazonaws.com
+    34.251.138.236 ec2-34-251-138-236.eu-west-1.compute.amazonaws.com
     ```
  
 1. List the Linux release you are using
